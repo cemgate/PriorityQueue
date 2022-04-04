@@ -146,7 +146,7 @@ void menu()
 		case 4:
 		{
 			cout << endl;
-			cout << "Uporzadkowana wiadmosc ->";
+			cout << "Uporzadkowana wiadomosc ->";
 			list.display(good);
 			cout << endl;
 			cout << endl;
