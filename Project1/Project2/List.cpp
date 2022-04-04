@@ -66,7 +66,7 @@ List List::sort(const List& l, Msg n)
 	int k = 0;
 	while (k <= n.n)
 	{
-		for ( range = l.first; range != NULL; range = range->next)
+		for (auto range = l.first; range != NULL; range = range->next)
 		{
 			string find = to_string(k + 1);
 			if (range->name == find)
